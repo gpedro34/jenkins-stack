@@ -1,0 +1,11 @@
+{
+  "name": "jenkins-stack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clone": "rm -rf jenkins && git clone https://github.com/gpedro34/jenkins.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
