@@ -41,13 +41,6 @@ services:
       - sonarqube_extensions:/opt/sonarqube/extensions
     restart: always
 
-  # sonarlint:
-  #   container_name: sonarlint
-  #   image: beevelop/sonarlint
-  #   volumes:
-  #     - sonarlint_code:/code
-  #     - sonarlint_report:/report
-
 volumes:
   datadb:
   jenkins_home:
@@ -55,5 +48,3 @@ volumes:
   sonarqube_data:
   sonarqube_logs:
   sonarqube_extensions:
-  # sonarlint_code:
-  # sonarlint_report:
